@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Burst</title>
+    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon" />
+    <!-- bootstrap stylesheet file -->
+    <link rel="stylesheet" href="./assets/styles/bootstrap.min.css" />
+    <!-- fontawesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/af25134cca.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom stylesheet file -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg customise-navbar">
+        <div class="container-fluid">
+          <a class="d-block d-lg-none navbar-brand customise-navbrand" href="#">
+            <img src="./assets/images/logo.png" alt="logo" />
+            <span class="ps-2">Fruit Burst</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </button>
+          <div
+            class="collapse navbar-collapse customise-navlinks"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="text-center nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="text-center nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-center nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-center nav-link" href="#">All Fruits</a>
+              </li>
+            </ul>
+            <div
+              class="nav-item mx-auto d-none d-lg-block customise-navbrand-two"
+            >
+              <a href="#" class="nav-link"
+                ><img src="./assets/images/logo.png" alt="logo" />
+                <span class="ps-2">Fruit Burst</span></a
+              >
+            </div>
+            <form
+              class="mx-auto mx-lg-0 position-relative customise-search"
+              role="search"
+            >
+              <input
+                class="position-relative border-0 form-control customise-input"
+                placeholder="Search here"
+                aria-label="Search"
+              />
+              <button
+                class="bg-transparent border-0 position-absolute"
+                type="submit"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- slider section start -->
+      <div
+        id="carouselExampleRide"
+        class="carousel slide customise-carousel"
+        data-bs-ride="true"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active image-overlay">
+            <img
+              src="./assets/images/banner1.png"
+              class="d-block w-100 rounded-3"
+              alt="Fruit banner"
+            />
+            <div class="carousel-caption customise-carousel-caption">
+              <h1 class="">Exotic tastes at your doorstep</h1>
+              <p>We supply highly quality organic products</p>
+              <button class="border-0" type="button">Shop Now</button>
+            </div>
+            <div
+              class="position-relative d-none d-lg-flex justify-content-around align-items-center carousel-menu"
+            >
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit1.png" alt="Grapse" />
+                <p class="mb-0 mt-2">Grapse</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit2.png" alt="Orange" />
+                <p class="mb-0 mt-2">Orange</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit3.png" alt="Mango" />
+                <p class="mb-0 mt-2">Mango</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit4.png" alt="Strawberry" />
+                <p class="mb-0 mt-2">Strawberry</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit5.png" alt="Grapse" />
+                <p class="mb-0 mt-2">Grapse</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item image-overlay">
+            <img
+              src="./assets/images/banner2.png"
+              class="d-block w-100 rounded-3"
+              alt="Fruit banner"
+            />
+            <div class="carousel-caption customise-carousel-caption">
+              <h1 class="">Exotic tastes at your doorstep</h1>
+              <p>We supply highly quality organic products</p>
+              <button class="border-0" type="button">Shop Now</button>
+            </div>
+            <div
+              class="position-relative d-none d-lg-flex justify-content-around align-items-center carousel-menu"
+            >
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit1.png" alt="Grapse" />
+                <p class="mb-0 mt-2">Grapse</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit2.png" alt="Orange" />
+                <p class="mb-0 mt-2">Orange</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit3.png" alt="Mango" />
+                <p class="mb-0 mt-2">Mango</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit4.png" alt="Strawberry" />
+                <p class="mb-0 mt-2">Strawberry</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit5.png" alt="Grapse" />
+                <p class="mb-0 mt-2">Grapse</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item image-overlay">
+            <img
+              src="./assets/images/banner3.png"
+              class="d-block w-100 rounded-3"
+              alt="Fruit banner"
+            />
+            <div class="carousel-caption customise-carousel-caption">
+              <h1 class="">Exotic tastes at your doorstep</h1>
+              <p>We supply highly quality organic products</p>
+              <button class="border-0" type="button">Shop Now</button>
+            </div>
+            <div
+              class="position-relative d-none d-lg-flex justify-content-around align-items-center carousel-menu"
+            >
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit1.png" alt="Grapse" />
+                <p class="mb-0 mt-2">Grapse</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit2.png" alt="Orange" />
+                <p class="mb-0 mt-2">Orange</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit3.png" alt="Mango" />
+                <p class="mb-0 mt-2">Mango</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit4.png" alt="Strawberry" />
+                <p class="mb-0 mt-2">Strawberry</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit5.png" alt="Grapse" />
+                <p class="mb-0 mt-2">Grapse</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item image-overlay">
+            <img
+              src="./assets/images/banner4.png"
+              class="d-block w-100 rounded-3"
+              alt="Fruit banner"
+            />
+            <div class="carousel-caption customise-carousel-caption">
+              <h1 class="">Exotic tastes at your doorstep</h1>
+              <p>We supply highly quality organic products</p>
+              <button class="border-0" type="button">Shop Now</button>
+            </div>
+            <div
+              class="position-relative d-none d-lg-flex justify-content-around align-items-center carousel-menu"
+            >
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit1.png" alt="Grapse" />
+                <p class="mb-0 mt-2">Grapse</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit2.png" alt="Orange" />
+                <p class="mb-0 mt-2">Orange</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit3.png" alt="Mango" />
+                <p class="mb-0 mt-2">Mango</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit4.png" alt="Strawberry" />
+                <p class="mb-0 mt-2">Strawberry</p>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <img src="./assets/images/fruit5.png" alt="Grapse" />
+                <p class="mb-0 mt-2">Grapse</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="border-0 rounded-pill previous-button"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <span class=""><i class="fa-solid fa-chevron-left"></i></span>
+        </button>
+        <button
+          class="border-0 rounded-pill next-button"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <span class="">
+            <i class="fa-solid fa-chevron-right"></i>
+          </span>
+        </button>
+      </div>
+      <!-- slider section ended -->
+    </header>
+    <!-- header ended here -->
+    <main class="main">
+      <!-- deal area start -->
+      <section class="deal-area">
+        <div
+          class="row gap-4 justify-content-center justify-content-lg-between"
+        >
+          <div class="col-lg-6 deal-info text-center text-lg-start">
+            <h4>Deal of the day</h4>
+            <p>
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+          </div>
+          <div class="col-lg-6 deal-timer">
+            <div class="d-flex gap-3">
+              <div class="text-center">
+                <h4>29</h4>
+                <p>Days</p>
+              </div>
+              <div class="time-dots">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="text-center">
+                <h4>15</h4>
+                <p>Hours</p>
+              </div>
+              <div class="time-dots">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="text-center">
+                <h4>25</h4>
+                <p>Minutes</p>
+              </div>
+              <div class="time-dots">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="text-center">
+                <h4>08</h4>
+                <p>Seconds</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gap-3 justify-content-between card-container">
+          <div class="col-xl-3 card-area">
+            <img src="./assets/images/fruit6.png" alt="Apple Picture" />
+            <h5>12.90$ - 18.85$</h5>
+            <p>Apples</p>
+            <span class="rating-stars">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Details
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="popup-content">
+                    <img src="./assets/images/fruit6.png" alt="Apple Picture" />
+                    <h5>Apples</h5>
+                    <p>
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <span class="rating-stars">
+                      <i class="fa-solid fa-star active"></i>
+                      <i class="fa-solid fa-star active"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="popup-buttons">
+                    <button type="button" class="" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" class="">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 card-area">
+            <img src="./assets/images/fruit7.png" alt="Apple Picture" />
+            <h5>12.90$ - 18.85$</h5>
+            <p>Orange</p>
+            <span class="rating-stars">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop2"
+            >
+              Details
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop2"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="popup-content">
+                    <img src="./assets/images/fruit7.png" alt="Apple Picture" />
+                    <h5>Orange</h5>
+                    <p>
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <span class="rating-stars">
+                      <i class="fa-solid fa-star active"></i>
+                      <i class="fa-solid fa-star active"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="popup-buttons">
+                    <button type="button" class="" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" class="">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 card-area">
+            <img src="./assets/images/fruit8.png" alt="Apple Picture" />
+            <h5>12.90$ - 18.85$</h5>
+            <p>Red Dragon</p>
+            <span class="rating-stars">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop3"
+            >
+              Details
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop3"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="popup-content">
+                    <img src="./assets/images/fruit8.png" alt="Apple Picture" />
+                    <h5>Red Dragon</h5>
+                    <p>
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <span class="rating-stars">
+                      <i class="fa-solid fa-star active"></i>
+                      <i class="fa-solid fa-star active"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="popup-buttons">
+                    <button type="button" class="" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" class="">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 card-area">
+            <img src="./assets/images/fruit9.png" alt="Apple Picture" />
+            <h5>12.90$ - 18.85$</h5>
+            <p>Banana</p>
+            <span class="rating-stars">
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star active"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop4"
+            >
+              Details
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop4"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="popup-content">
+                    <img src="./assets/images/fruit9.png" alt="Apple Picture" />
+                    <h5>Banana</h5>
+                    <p>
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <span class="rating-stars">
+                      <i class="fa-solid fa-star active"></i>
+                      <i class="fa-solid fa-star active"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                  </div>
+                  <div class="popup-buttons">
+                    <button type="button" class="" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" class="">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop-all-button">
+          <button class="border-0">Shop All</button>
+        </div>
+      </section>
+      <!-- deal area end -->
+      <!-- team area start -->
+      <section class="team-area">
+        <div class="area-backgrond">
+          <div class="area-overlay"></div>
+          <div class="team-content">
+            <h4>Meet the team section</h4>
+            <p>
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+            <div
+              class="d-flex gap-4 flex-wrap justify-content-center align-items-center team-card-container"
+            >
+              <div class="team-card">
+                <img src="./assets/images/member1.png" alt="Picture" />
+                <h5>Awlad Hossain</h5>
+                <p>Fruits Expert</p>
+                <span>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+              </div>
+              <div class="team-card">
+                <img src="./assets/images/member2.png" alt="Picture" />
+                <h5>Safia Chowdhury</h5>
+                <p>Fruits Expert</p>
+                <span>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+              </div>
+              <div class="team-card">
+                <img src="./assets/images/member3.png" alt="Picture" />
+                <h5>Rokib Hossain</h5>
+                <p>Fruits Expert</p>
+                <span>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+              </div>
+              <div class="team-card">
+                <img src="./assets/images/member4.png" alt="Picture" />
+                <h5>Chaity</h5>
+                <p>Fruits Expert</p>
+                <span>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- team area end -->
+      <!-- choose area start -->
+      <section class="choose-area">
+        <h4>Why Choose Us</h4>
+        <p>
+          Contrary to popular belief, is not simply random text. It has roots in
+          a piece of classical Latin literature from 45 BC, making it over 2000
+          years old.
+        </p>
+        <div
+          class="d-flex flex-column flex-lg-row justify-content-center align-items-center choose-content"
+        >
+          <div class="d-lg-none">
+            <img
+              src="./assets/images/whychoose1.png"
+              class="img-fluid"
+              alt="Picture"
+            />
+          </div>
+          <div class="choose-content-area">
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start area-content"
+            >
+              <div class="choose-icon">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="text-center text-lg-start underline-left">
+                <h5>Dedicated Team</h5>
+                <p class="text-center text-lg-start">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start area-content"
+            >
+              <div class="choose-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="text-center text-lg-start underline-left">
+                <h5>Fresh is Best</h5>
+                <p class="text-center text-lg-start">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start area-content"
+            >
+              <div class="choose-icon">
+                <i class="fa-solid fa-gift"></i>
+              </div>
+              <div class="text-center text-lg-start underline-left">
+                <h5>Gift Certificates</h5>
+                <p class="text-center text-lg-start">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-lg-block">
+            <img
+              src="./assets/images/whychoose1.png"
+              class="img-fluid"
+              alt="Picture"
+            />
+          </div>
+          <div class="choose-content-area-two">
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start area-content"
+            >
+              <div class="choose-icon d-lg-none">
+                <i class="fa-solid fa-apple-whole"></i>
+              </div>
+              <div class="text-center text-lg-end underline-right">
+                <h5>Integrated Supplier</h5>
+                <p class="text-center text-lg-end">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+              <div class="choose-icon d-none d-lg-flex">
+                <i class="fa-solid fa-apple-whole"></i>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start area-content"
+            >
+              <div class="choose-icon d-lg-none">
+                <i class="fa-solid fa-ice-cream"></i>
+              </div>
+              <div class="text-center text-lg-end underline-right">
+                <h5>Sustainable Practice</h5>
+                <p class="text-center text-lg-end">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+              <div class="choose-icon d-none d-lg-flex">
+                <i class="fa-solid fa-ice-cream"></i>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start area-content"
+            >
+              <div class="choose-icon d-lg-none">
+                <i class="fa-regular fa-thumbs-up"></i>
+              </div>
+              <div class="text-center text-lg-end underline-right">
+                <h5>The Benefits Only</h5>
+                <p class="text-center text-lg-end">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+              </div>
+              <div class="choose-icon d-none d-lg-flex">
+                <i class="fa-regular fa-thumbs-up"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- choose area end -->
+    </main>
+    <!-- footer area start -->
+    <footer
+      class="d-flex flex-column justify-content-center align-items-center footer"
+    >
+      <div class="footer-logo">
+        <a href="#" class="d-flex gap-3 gap-lg-4 align-items-center">
+          <img src="./assets/images/logo.png" alt="Logo" />
+          BurstFruit
+        </a>
+      </div>
+      <div
+        class="d-flex flex-wrap justify-content-center align-items-center text-center footer-links"
+      >
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Shop</a>
+        <a href="#">All Fruits</a>
+        <a href="#">Support</a>
+        <a href="#">My Account</a>
+      </div>
+      <div
+        class="d-flex flex-wrap justify-content-center align-items-center text-center footer-social-links"
+      >
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-apple"></i></a>
+      </div>
+    </footer>
+    <!-- footer area end -->
+    <!-- bootstrap js file -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
